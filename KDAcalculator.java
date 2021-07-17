@@ -100,7 +100,7 @@ class Data{
 	}
 	
 	public void dataChange(int data){
-		if (data > 0)
+		if (data >= 0)
 			this.data = data;
 	}
 	
